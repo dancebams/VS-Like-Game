@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: aa7e53eba8003194cafcb3098de5caa2
+  productGUID: 6cb97788a6d2e2043be1f65e150ac80d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -704,10 +704,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: cc596a08-189c-4950-958e-3897081487a9
+  cloudProjectId: 6acba392-9da5-490a-8c49-7485d47bd1c5
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: VS-Like-Game
+  projectName: VS-Like-Game 2024-12-19_00-33-15
   organizationId: danchik19999
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
