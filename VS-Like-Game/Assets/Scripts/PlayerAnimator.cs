@@ -19,7 +19,7 @@ public class PlayerAnimator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (pm.moveDir.x != 0 || pm.moveDir.y != 0)
+        if (pm.moveDir.x != 0)
         {
             am.SetBool("Move", true);
 
@@ -28,6 +28,24 @@ public class PlayerAnimator : MonoBehaviour
         else
         {
             am.SetBool("Move", false);
+        }
+        
+        if (pm.moveDir.y > 0)
+        {
+            am.SetBool("MoveUp", true);
+        }
+        else
+        {
+            am.SetBool("MoveUp", false);
+        }
+
+        if(pm.moveDir.y < 0)
+        {
+            am.SetBool("MoveDown", true);
+        }
+        else
+        {
+            am.SetBool("MoveDown", false);
         }
     }
 
